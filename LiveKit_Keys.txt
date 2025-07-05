@@ -1,0 +1,16 @@
+WebSocket URL:: wss://personal-ai-assistant-q2i9se0p.livekit.cloud
+
+API Key:: APIyk8d9vACoVKu
+
+API Secret:: el1VhbRCe8Es82thoyBB0dx3Hg3gMDveItdgSHurhNlA
+
+Env Variables:: LIVEKIT_URL=wss://personal-ai-assistant-q2i9se0p.livekit.cloud
+LIVEKIT_API_KEY=APIyk8d9vACoVKu
+LIVEKIT_API_SECRET=el1VhbRCe8Es82thoyBB0dx3Hg3gMDveItdgSHurhNlA
+
+
+Google AI Studio API Key: AIzaSyD5t500ZmW8TRmQ9zGnScItcZ-H4Rthi5I
+
+
+lk app create \
+	--sandbox seamless-tesseract-29js0q

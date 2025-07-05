@@ -1,0 +1,10 @@
+COMMANDS:
+
+pip install -r .\requirements.txt
+python .\agent.py start
+python .\agent.py console
+python -m venv .venv
+conda activate handenv
+venv/Scripts/activate
+Get-ChildItem Env:SSL_CERT_FILE
+Remove-Item Env:SSL_CERT_FILE                                            
