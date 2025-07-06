@@ -1,10 +1,12 @@
 
-# Personal AI Assistant - "Friday"
+# Google Gemini Based Personal AI Assistant **Who Can See You** - "Friday"
 
-A real-time AI assistant built with LiveKit and Google's Realtime API, inspired by the AI assistant from Iron Man. This project creates a voice-enabled personal assistant that can help with weather information, web searches, and email management.
-Features
+A real-time AI assistant with Camera Access built with LiveKit and Google's Realtime API, inspired by the AI assistant from Iron Man. This project creates a voice-enabled personal assistant that can help with weather information, web searches, and email management.
+
+# Features
 
 - Voice-enabled interaction with real-time audio processing
+- AI assistant with Access to Camera Visual meaning an AI assistant that can see you or environment through Camera 
 - Weather information for any city
 - Web search capabilities using DuckDuckGo
 - Email sending through Gmail
