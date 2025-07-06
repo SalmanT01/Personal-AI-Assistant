@@ -1,7 +1,7 @@
 
 # Google Gemini Based Personal AI Assistant **Who Can See You** - "Friday"
 
-A real-time AI assistant with Camera Access built with LiveKit and Google's Realtime API, inspired by the AI assistant from Iron Man. This project creates a voice-enabled personal assistant that can help with weather information, web searches, and email management.
+A real-time AI assistant with Camera Access built with LiveKit and Google's Realtime API, inspired by the AI assistant from Iron Man. This project creates a voice-enabled personal assistant that can assist in search with weather information, perform web searches, and send email.
 
 # Features
 
@@ -124,11 +124,11 @@ Friday is designed to be:
 
 Key libraries used:
 
-livekit-agents: Core LiveKit agent functionality
-livekit-plugins-google: Google AI integration
-livekit-plugins-noise-cancellation: Audio enhancement
-langchain_community: Web search capabilities
-requests: HTTP requests for weather API
+livekit-agents: Core LiveKit agent functionality  
+livekit-plugins-google: Google AI integration  
+livekit-plugins-noise-cancellation: Audio enhancement  
+langchain_community: Web search capabilities  
+requests: HTTP requests for weather API  
 python-dotenv: Environment variable management
 
 # Troubleshooting
@@ -136,28 +136,27 @@ python-dotenv: Environment variable management
 Common Issues
 
 SSL Certificate Issues:
-bashRemove-Item Env:SSL_CERT_FILE
+
+```bash
+Remove-Item Env:SSL_CERT_FILE
+```
 
 Authentication Errors:
 
-Verify your LiveKit credentials
-Check Google AI Studio API key
+Verify your LiveKit credentials  
+Check Google AI Studio API key  
 Ensure Gmail App Password is correct
 
 
 Audio Issues:
 
-Check microphone permissions
-Verify noise cancellation settings
+Check microphone permissions  
+Verify noise cancellation settings  
 Test with console mode first
 
 
-Debug Mode
-Use console mode for testing without audio:
-bashpython agent.py console
-Contributing
 
-Acknowledgement  
+# Contribution and Acknowledgement  
 
 This open source project is produced by https://github.com/ruxakK/friday_jarvis from https://www.youtube.com/watch?v=An4NwL8QSQ4&ab_channel=Thanh-yDavidNguyen.   
   
